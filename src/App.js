@@ -8,12 +8,12 @@ import FoodDetailContainer from './redux-training/containers/food-detail';
 function App() {
   return (
     <div className="App">
-      <h2 style={{color: "red"}}>STUDY REDUX REACTJS</h2>
+      <h2 style={{color: "red"}}>REDUX REACTJS</h2>
 
       <h2>Menu food</h2>
       <FoodContainer />
       <hr />
-      <h2>Detail food</h2>
+      <h2 style={{color: "yellow"}}>Detail food</h2>
       <FoodDetailContainer />
     </div>
   );
