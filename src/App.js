@@ -13,7 +13,7 @@ function App() {
       <h2>Menu food</h2>
       <FoodContainer />
       <hr />
-      <h2>Detail food</h2>
+      <h2 style={{color: "yellow"}}>Detail food</h2>
       <FoodDetailContainer />
     </div>
   );
